@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Articles
+{
+    margin-top: 3em;
+}
+
+.Articles .align
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.Articles .align h1
+{
+    margin-bottom: 3em;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blogs
+{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.blog
+{
+    width: 100%;
+}
+
+.blog .blog-img
+{
+    width: 100%;
+    height: 270px;
+}
+
+.blog .blog-img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.blog .title
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 1em 0 1em 0;
+}
+
+.blog .redirect
+{
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: rgb(102, 210, 246);
+    width: 150px;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (min-width: 600px)
+{
+    .blogs
+    {
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 800px)
+{
+    .blogs
+    {
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 1000px)
+{
+    .blogs
+    {
+        width: 90%;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-gap: 20px;
+    }
+
+}
+
+
+@media (min-width: 1200px)
+{
+    .blogs
+    {
+        width: 80%;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-gap: 25px;
+    }
+
+    .Articles .align
+    {
+        width: 80%;
+        padding-left: 1em;
+        text-align: start;
+    }
+
+}

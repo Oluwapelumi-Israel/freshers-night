@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head
+{
+    height: 500px;
+    width: 100%;
+    /* background-color: rgba(82, 33, 33, 0.5); */
+    background-image: url('../assets/UNILAG-GATE-mobile-view.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+
+.head .header
+{
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .header .logo
+{
+    display: flex;
+}
+
+.head .header .logo section
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.head .header .logo section img
+{
+    width: 100%;
+}
+
+
+.head .background
+{
+    padding: 2em;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .background p
+{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(102, 210, 246);
+    font-family: 'Raleway', sans-serif;
+}
+
+.button p
+{
+    padding: 0.6em;
+    background-color: rgb(102, 210, 246);
+    color: white;
+    font-weight: bold;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.button p:hover
+{
+    background-color: white;
+    color: rgb(102, 210, 246);
+}
+
+@media (min-width: 800px)
+{
+    .head
+    {
+        height: 800px;
+        background-image: url('../assets/UNILAG-GATE.jpg');
+    }
+
+    .head .background p
+    {
+        font-size: 4em;
+    }
+
+    .head .header
+    {
+        width: 80%;
+        margin: auto;
+    }
+}
