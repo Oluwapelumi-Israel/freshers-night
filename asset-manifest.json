@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/freshers-night/static/css/main.84a81d7f.css",
+    "main.js": "/freshers-night/static/js/main.b68d613d.js",
+    "static/media/mistake.jpg": "/freshers-night/static/media/mistake.c5110e37f3012c1beb37.jpg",
+    "static/media/UNILAG-GATE-mobile-view.jpg": "/freshers-night/static/media/UNILAG-GATE-mobile-view.d34b53a89cba4c659652.jpg",
+    "static/media/senate.jpeg": "/freshers-night/static/media/senate.c9a035512cfd1abb95ff.jpeg",
+    "static/media/freedom.jpg": "/freshers-night/static/media/freedom.1f3f9eab4552edd79d6e.jpg",
+    "static/media/welcome2.jpg": "/freshers-night/static/media/welcome2.b0111eb712b961280d1c.jpg",
+    "static/media/UNILAG-GATE.jpg": "/freshers-night/static/media/UNILAG-GATE.b924ac37434ae7b724eb.jpg",
+    "static/media/question2.jpg": "/freshers-night/static/media/question2.78499c6ff7eff05074bd.jpg",
+    "static/media/support11.png": "/freshers-night/static/media/support11.8d08ea307e818bcc901b.png",
+    "index.html": "/freshers-night/index.html",
+    "main.84a81d7f.css.map": "/freshers-night/static/css/main.84a81d7f.css.map",
+    "main.b68d613d.js.map": "/freshers-night/static/js/main.b68d613d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84a81d7f.css",
+    "static/js/main.b68d613d.js"
+  ]
+}
